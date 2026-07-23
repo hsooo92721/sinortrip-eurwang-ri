@@ -1,13 +1,16 @@
 html,
 body {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
   padding: 0;
+  overflow-x: hidden;
   background: #e3ecf7;
 }
 body {
   font-family: "Pretendard", "Noto Sans KR", "Malgun Gothic", sans-serif;
   -webkit-font-smoothing: antialiased;
   color: #3a3a3a;
-  margin: 0 auto;
 }
 a {
   color: #0d63d6;
@@ -286,13 +289,24 @@ x-dc {
   border: none;
 }
 
+#dc-root,
+#dc-root > .sc-host,
+#dc-root > .sc-host > div {
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+}
+
 .trip-page {
+  width: 100%;
   max-width: 560px;
-  margin: 0px auto;
-  background: rgb(247, 250, 254);
+  min-width: 0;
+  margin: 0 auto;
+  background: #f7fafe;
   min-height: 100vh;
-  box-shadow: rgba(13, 99, 214, 0.08) 0px 0px 60px;
+  box-shadow: 0 0 60px rgba(13, 99, 214, 0.08);
   position: relative;
+  overflow-x: clip;
 }
 .scarcity-bar {
   position: sticky;
