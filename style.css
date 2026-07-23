@@ -904,6 +904,49 @@ x-dc {
   color: rgb(42, 111, 219);
   margin-bottom: 22px;
 }
+/* 비회원 카드 */
+.pricing-section__style-15 {
+  position: relative;
+  min-width: 0;
+}
+
+/* 비회원 라벨 */
+.pricing-section__style-16 {
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  margin: 0;
+  padding: 4px 12px;
+  border-radius: 999px;
+
+  background: #8a97a6;
+  color: #fff;
+
+  font-size: 12px;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+/* 회원 카드와 가격 위치 통일 */
+.pricing-section__style-17 {
+  margin-top: 6px;
+}
+
+/* 모바일: 가격 카드 세로 배치 */
+@media (max-width: 480px) {
+  .pricing-section__style-08 {
+    flex-direction: column;
+    gap: 28px;
+  }
+
+  .pricing-section__style-09,
+  .pricing-section__style-15 {
+    width: 100%;
+    flex: none;
+  }
+}
 .membership-shortcut {
   margin-bottom: 18px;
   padding: 18px;
