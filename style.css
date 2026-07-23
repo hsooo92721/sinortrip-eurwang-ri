@@ -293,7 +293,7 @@ x-dc {
 #dc-root > .sc-host,
 #dc-root > .sc-host > div {
   width: 100%;
-  max-width: 100%;
+  max-width: 560px;
   min-width: 0;
 }
 
