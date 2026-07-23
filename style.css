@@ -1223,10 +1223,17 @@ x-dc {
 }
 .faq-section__style-07 {
   flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+
+  width: 24px;
+  height: 24px;
+  line-height: 1;
+
   font-size: 20px;
   color: rgb(91, 149, 224);
-  transform: rotate(180deg);
-  transition: transform 0.2s;
 }
 .faq-section__style-08 {
   padding: 0px 22px 22px 52px;
